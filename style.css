@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    text-align: center;
+
+
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    margin-top: 30px
+}
+
+i {
+    color: white;
+
+}
+
+.ik {
+    gap: 25px;
+    display: flex;
+    margin-top: 30px
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: black;
+}
+
+.ki {
+    background-image: url(./img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+
+}
+
+.ki h1 {
+    color: white;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 118.08px;
+    letter-spacing: 2%;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+.ki p {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 1%;
+    color: white;
+    margin-top: 48px;
+    margin-left: 220px;
+}
+
+.btn {
+    width: 180;
+    height: 52;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-right: 80px;
+    padding-bottom: 16px;
+    padding-left: 80px;
+    background: #F57520;
+    margin-left: 220px;
+    margin-top: 40px;
+    color: white;
+    border: none;
+}
+
+nav ul li a:hover {
+    color: #F57520;
+}
+ul{ list-style: none;}
+
+.ota{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 90px;
+}
+.card span{
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+padding-left: 10px;    
+color: white;
+
+
+}
+.ham{
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 28.8px;
+letter-spacing: 1%;
+color: white;
+}
+
+
+.card p {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 1%;
+    color: white;
+    padding-top: 24px;
+    padding-left: 10px;
+
+}
+
+.card{width: 400px;
+    height: 462px;
+    top: 1160px;
+    left: 320px;
+    border-radius: 10px;
+    background-color:black;
+    
+
+   
+    }
+    .card:hover{
+        background-color: #F57520;
+
+    }
+    main{ background-color: gray;}
+   
+
+
+    
+    .ham{font-family: Open Sans;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 78.72px;
+        letter-spacing: 5%;
+        text-align: center;
+        color: #101010;
+        text-align: center;
+        }
+        .hero3 {
+            background-image: url("./img/image\ 86.png");
+            height: 636px;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-color: hsla(24, 91%, 54%, 1);
+        }
+        
+        input {
+            width: 292px;
+            height: 46px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            margin: 10px 20px;
+            padding: 10px 16px;
+        }
+        
+        textarea {
+            width: 630px;
+            height: 154px;
+            outline: none;
+            gap: 10px;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-right: 16px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            margin: 10px 20px;
+        }
+        .sv{font-family: Open Sans;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 49.2px;
+            letter-spacing: 5%;
+            padding-top: 50px;
+            color: white;
+            }
+        .btn2 {
+            font-family: Open Sans;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19.68px;
+            letter-spacing: 0%;
+            text-align: right;
+            color: hsla(24, 91%, 54%, 1);
+            padding-top: 40px;
+            padding: 16px 262px;
+            margin: 10px 20px;
+            border-radius: 10px;
+            border: none;
+        }
+        
+        footer {
+            background-color: hsla(0, 0%, 6%, 1);
+            padding-top: 92px;
+            padding-bottom: 230px;
+        }
+        
+        .ota-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .text {
+            color: white;
+        }
+        
+        .ka {
+            font-family: Open Sans;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 38.4px;
+            letter-spacing: 1%;
+        }
+        
+        .trd {
+            font-family: Open Sans;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25.6px;
+            letter-spacing: 0%;
+            color: hsla(0, 0%, 100%, 1);
+            padding-top: 32px;
+        }
